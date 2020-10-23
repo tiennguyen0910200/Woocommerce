@@ -1,0 +1,9 @@
+2020-10-02T02:22:57+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::get_data() in C:\xampp1\htdocs\Woocommerce\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\RestApi.php:58
+Stack trace:
+#0 C:\xampp1\htdocs\Woocommerce\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets.php(175): Automattic\WooCommerce\Blocks\RestApi->get_routes_from_namespace('wc/store')
+#1 C:\xampp1\htdocs\Woocommerce\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets::get_wc_block_data(Array)
+#2 C:\xampp1\htdocs\Woocommerce\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp1\htdocs\Woocommerce\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(136): apply_filters('woocommerce_sha...', Array)
+#4 C:\xampp1\htdocs\Woocommerce\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(227): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#5 C:\xampp1\htdocs\Woocommerce\wp-incl in C:\xampp1\htdocs\Woocommerce\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\RestApi.php on line 58
+
